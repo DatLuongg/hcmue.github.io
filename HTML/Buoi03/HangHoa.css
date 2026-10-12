@@ -1,0 +1,22 @@
+.hh-box{width: 200px; height: 100px; border:2px solid blue;}
+.hh-box:hover{box-shadow: 0 0 10px green;}
+
+.gallery-item{margin:5px; border: 2px solid green; width:180px;}
+.gallery-item:hover{border: 2px solid red; box-shadow: 0 0 10px;}
+.gallery-item img{width:100%; height: auto; position: relative;}
+.rating {
+    display: flex;         /* Sắp xếp các ngôi sao theo hàng ngang */
+    justify-content: center; /* Căn giữa 5 ngôi sao trong khung (hoặc flex-start nếu muốn căn trái) */
+    gap: 2px;              /* Khoảng cách giữa các ngôi sao */
+    margin-top: 10px;      /* Khoảng cách với ảnh máy ảnh ở trên */
+    margin-bottom: 8px; 
+    left:0;   /* Khoảng cách với dòng chữ ở dưới */
+}
+
+.thong-tin{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    color:red;
+    left:20px;
+    position:relative;
+}
